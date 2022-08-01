@@ -1,10 +1,12 @@
-import React from 'react';
+import React,{FC} from 'react';
 import './App.css';
 
-function App() {
+const App:FC = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <div className="App">
+        <span className="heading">Note Taker</span>
+      </div>
     </>
   );
 }
