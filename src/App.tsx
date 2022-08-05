@@ -22,6 +22,19 @@ const App: FC = () => {
     <>
       <div className="App">
         <span className="heading">Note Taker</span>
+        <div className="footer">
+          <p>
+            Created with &hearts; by{" "}
+            <a
+              href="https://github.com/uzairafridi00"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Uzair Afridi
+            </a>
+          </p>
+          <p>&copy; 2022</p>
+        </div>
         <Input todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         <TodoList todos={todos} setTodos={setTodos} />
         {/* {todos.map((x) => (
