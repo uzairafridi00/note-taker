@@ -2,7 +2,8 @@
 
 ### Site is Live Here :point_down:
 
-## <a href="https://amazing-licorice-088739.netlify.app/" target="_blank">DEMO</a>
+## [DEMO](https://amazing-licorice-088739.netlify.app/){:target="_blank" rel="noopener"}
+
 
 
 ## Getting Started with Create React App
